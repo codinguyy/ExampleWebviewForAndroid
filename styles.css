@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top:3.5rem ;
+}
+
+:root{
+    --bg-color:#101010;
+    --secound-bg-color:#191919;
+    --text-color:#fff;
+    --second-color:#c6c9d8bf;
+    --main-color:#05008a;
+    --big-font:5.3rem;
+    --h2-font:4.2rem;
+    --p-font:1.1rem;
+}
+
+body{
+    background: var(--bg-color);
+    color:var(--text-color);
+}
+
+#button{
+    width: 100px;
+    height: 100px;
+    background-color: #101010;
+    color: white;
+
+}
